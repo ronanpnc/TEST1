@@ -1,3 +1,6 @@
 class Student {
-  constructor(name: string) {}
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
 }
